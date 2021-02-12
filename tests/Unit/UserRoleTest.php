@@ -7,8 +7,8 @@ class UserRoleTest extends TestCase
 {
     public function testCreateUserRole()
     {
-        $user = UserRole::factory()->make();
-        $this->assertEquals('Unit Testing', $user->position);
+        $user_role = UserRole::factory()->make();
+        $this->assertEquals('Unit Testing', $user_role->position);
     }
 
 }
